@@ -26,6 +26,3 @@ y_select=st.selectbox(label='Select the data for the Y-axis',
 st.subheader(f'{x_select} and {y_select}')
 
 chart=st.plotly_chart(draw_figure(content,x_select,y_select))
-
-
-
